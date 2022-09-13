@@ -1,0 +1,132 @@
+@import "../../styles/app";
+
+.choose::-webkit-file-upload-button {
+  color: white;
+  display: inline-block;
+  background: #1CB6E0;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+.btn-upload {
+  color: white;
+  display: inline-block;
+  background: #1c4ae0;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+.btn-upload:hover {
+  color: white;
+  display: inline-block;
+  background: #0f1c7a;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+.btn-reset {
+  color: white;
+  display: inline-block;
+  background: #e01c30;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+.btn-reset:hover {
+  color: white;
+  display: inline-block;
+  background: #670d16;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+.bg-preview {
+  background-color: rgb(202, 218, 255);
+  border-radius: 10px;
+  width: 100%;
+}
+.image-select:hover {
+  cursor: pointer;
+}
+.dashboard-page {
+  .page-title {
+    padding-bottom: 20px;
+    @include media-breakpoint-up(sm) {
+      padding-bottom: 0;
+    }
+  }
+  .apexcharts-legend-series {
+    padding: 2px 5px 3px;
+    display: flex;
+    align-items: center;
+    .apexcharts-legend-marker {
+      margin-right: 8px;
+    }
+  }
+  .main-chart-select {
+    font-size: 1rem;
+    margin-right: 10px;
+    fieldset {
+      border-width: 1px!important;
+      border-color: $text-grey!important;
+      color: $text-grey!important;
+    }
+    .v-select__selection {
+      color: $text-color!important;
+    }
+  }
+  .v-card {
+    .v-card__text {
+      .subtext {
+        font-size: 1.142rem;
+        font-weight: 400;
+        color: $title-grey;
+      }
+      .subtext-index {
+        font-size: 11px;
+        color: $text-color;
+        font-weight: 400;
+      }
+    }
+  }
+  .support-requests {
+    .v-data-table__wrapper {
+      thead tr th {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $title-grey!important;
+      }
+    }
+  }
+}
+
+.v-menu__content {
+  box-shadow: $card-shadow!important;
+  .v-list-item__content .v-list-item__title{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+.button-shadow {
+  box-shadow: $button-shadow;
+}
